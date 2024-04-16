@@ -1,3 +1,9 @@
+.center {
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,85 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #429446;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: auto;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  margin-left: 5px;
+}
+
+.edit-button {
+  margin-left: 10px;
+}
+
+.update-button {
+  margin-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+body {
+  background-color: #48a29d;
+}
+
+.task-text {
+  color: white;
+}
+
+.img-resize {
+  width: 400px;
+  height: 300px;
+  margin-left: 520px;
+}
+
+.button-wrapper {
+  margin-left: 680px;
+  margin-top: -90px;
+}
+.wrapbox {
+  border-radius: 50%;
+  align-content: center;
+  color: white;
+}
+.footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
 }
